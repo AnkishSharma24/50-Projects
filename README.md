@@ -30,3 +30,45 @@ nav ul li + li + li{
 .container.show-nav .circle{
 transform: rotate(-70deg);
 }
+
+# Scroll animation
+Difference between nth-child & nth-of-type
+
+1) nth-of-type
+
+EXAMPLE
+lets say we have list
+<ul>
+    <li>one</li>
+    <li>two</li>  this get color
+    <li>three</li>
+    <li>four</li>
+</ul>
+
+-> li:nth-of-type(2){color: red;} -> this will change <li>two</li> in red color 
+
+2) nth-child
+
+EXAMPLE
+
+-> li:nth-child(2){color: red;} -> this will change <li>two</li> in red color 
+
+<ul>
+    <p>I am first child</p>
+    <li>one</li> this gets color red
+    <li>two</li>
+    <li>three</li>
+    <li>four</li>
+</ul>
+
+Complex example
+
+-> li:nth-child(2){color: red;} -> this will change <li>two</li> in red color 
+<ul>
+    <p>I am first child</p>
+     <p>I am second child</p>
+    <li>one</li> this gets color red NOTE: this is thied child & there is no second child as a list
+    <li>two</li>
+    <li>three</li>
+    <li>four</li>
+</ul>
