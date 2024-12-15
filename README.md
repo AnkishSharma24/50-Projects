@@ -72,3 +72,9 @@ Complex example
     <li>three</li>
     <li>four</li>
 </ul>
+
+NOTE:
+he Element.getBoundingClientRect() method returns a DOMRect object providing information about the size of an element and its position relative to the
+SYNTAX->getBoundingClientRect()
+
+->he returned value is a DOMRect object which is the smallest rectangle which contains the entire element, including its padding and border-width. The left, top, right, bottom, x, y, width, and height properties describe the position and size of the overall rectangle in pixels. Properties other than width and height are relative to the top-left of the viewport.
